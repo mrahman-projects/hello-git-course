@@ -16,5 +16,16 @@ for key, value in company_dict.items():
     print(f"{key}: {value}")
 
 print()
+
+print("this is the third feature added")
+while True:
+    user_input = input("guess a number, 0 to quit: ")
+    if user_input == '0':
+        break
+    else:
+        print(f"your input is: {user_input}")
+
+
 print("This is the end of the program")
 
+print("This line is to test git reset function")
