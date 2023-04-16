@@ -25,7 +25,10 @@ while True:
     else:
         print(f"your input is: {user_input}")
 
+print("this is the forth feature added")
+target_number = int(input("Please select a number: "))
+for count in range(1, 11):
+    print(f"{target_number} * {count} = {target_number * count}")
 
 print("This is the end of the program")
 
-print("This line is to test git reset function")
